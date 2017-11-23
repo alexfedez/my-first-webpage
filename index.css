@@ -1,0 +1,28 @@
+/* This is a comment */
+#intro {
+  color: red;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+}
+
+.default {
+  color: green;
+  border: 1px solid black;
+  float: right;
+  height: 50px;
+}
+
+#special-one {
+  font-size: 22px;
+}
+
+.text-center {
+    text-align:center;
+}
+
+body {
+background-color: #dadada;
+background-image: url("https://i1.wp.com/itiwitis.info/wp-content/uploads/2015/10/developers.jpg");
+
+}
