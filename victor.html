@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Hello world!</title>
-    <link rel="stylesheet" type="text/css" href="index.css" />
-	</head>
+<html>
+ <head>
+  <link rel="stylesheet" type="text/css" href="">
+  <link rel="shorcut icon" type="image/x-icon" class="img" href="../imagenes/favicon.ico">
+  <title>Formulario Basico con html y css</title>
+ </head>
 
-	<body>
-		<h1>Hello world!</h1>
+ <body>
+  <div class="contenedor">
+   <fieldset><legend>Formulario</legend>
+    <form>
+     <!---->
+     <label for="nombre">Nombre:</label>
+     <!---->
+     <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
 
+     <label for="email">Email:</label>
 
-    <p id="intro">
-      Lorem <span>ipsum</span> dolor <span>consectetur</span> sit amet.
-    </p>
+     <input type="email" id="email" name="email" placeholder="Escribe tu email">
 
-    <p class="default text-center">Lorem ipsum <strong>dolor</strong> consectetur sit amet.</p>
-    <p class="default">Lorem ipsum <em>dolor</em> consectetur sit amet.</p>
-    <p class="default">Lorem ipsum <span id="special-one">dolor</span> consectetur sit amet.</p>
-    <p class="default">Lorem ipsum dolor consectetur sit amet.</p>
-		<p class="default">Lorem ipsum dolor consectetur sit amet.</p>
-	</body>
+     <label for="mensaje">mensaje:</label>
+     <!---->
+     <textarea type="mensaje" id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
 
-
-    <p>This is a paragraph</p>
-	</body>
-
-
-
+     <input type="submit" value="Enviar">  
+    </form>
+   </fieldset> 
+  </div> 
+ </body>
 </html>
